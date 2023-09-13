@@ -49,8 +49,10 @@ module.exports = (_, argv) => ({
       name: 'header',
       filename: 'header-remote.js',
       remotes: {
-        'host-remote': 'host@http://localhost:8080/host-remote.js',
-        'header-remote': 'header@http://localhost:8001/header-remote.js',
+        'host-remote':
+          'host@https://web-performance-ten.vercel.app/host-remote.js',
+        'header-remote':
+          'header@https://web-pf-header.vercel.app/header-remote.js',
       },
       exposes: {
         './Nav': './src/components/Header',
