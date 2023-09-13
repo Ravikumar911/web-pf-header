@@ -1,5 +1,5 @@
 {
-  "name": "header",
+  "name": "web-pf-header",
   "version": "1.0.0",
   "scripts": {
     "build": "rm -rf dist && NODE_ENV=production webpack --mode production",
