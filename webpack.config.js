@@ -60,7 +60,7 @@ module.exports = (_, argv) => ({
       },
       exposes: {
         './Nav': './src/components/Header',
-        './FormsHanson': './src/components/Hansontable',
+        './FormsHanson': './src/components/Handsontable',
         './Forms3D': './src/components/Three',
       },
       shared: {
