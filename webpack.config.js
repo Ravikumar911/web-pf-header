@@ -73,6 +73,7 @@ module.exports = (_, argv) => ({
           requiredVersion: deps['react-dom'],
         },
       },
+      ...deps,
     }),
     new HtmlWebPackPlugin({
       template: './src/index.html',
