@@ -21,6 +21,7 @@
     "@babel/preset-typescript": "^7.10.4",
     "@types/react": "^18.2.0",
     "@types/react-dom": "^18.2.0",
+    "@types/three": "^0.156.0",
     "autoprefixer": "^10.1.0",
     "babel-loader": "^8.2.2",
     "copy-webpack-plugin": "^11.0.0",
@@ -36,10 +37,11 @@
     "webpack-dev-server": "^4.3.1"
   },
   "dependencies": {
-    "@cleartax/enterprise-shell-configs": "^1.9.0",
-    "@cleartax/mtsg-ui": "^1.313.5",
+    "@handsontable/react": "^13.1.0",
+    "handsontable": "^13.1.0",
     "moment": "^2.29.4",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "three": "^0.156.1"
   }
 }

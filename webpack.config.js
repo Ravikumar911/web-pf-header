@@ -60,6 +60,8 @@ module.exports = (_, argv) => ({
       },
       exposes: {
         './Nav': './src/components/Header',
+        './FormsHanson': './src/components/Hansontable',
+        './Forms3D': './src/components/Three',
       },
       shared: {
         react: {
@@ -70,7 +72,6 @@ module.exports = (_, argv) => ({
           singleton: true,
           requiredVersion: deps['react-dom'],
         },
-        ...deps,
       },
     }),
     new HtmlWebPackPlugin({
